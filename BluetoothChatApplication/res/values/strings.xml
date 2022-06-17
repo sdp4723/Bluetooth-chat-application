@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothChatApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_device1">Device1</string>
+    <string name="title_activity_device2">Device2</string>
+    <string name="title_activity_device3">Device3</string>
+    <string name="title_activity_device4">Device4</string>
+    <string name="title_activity_device5">Device5</string>
+    <string name="title_activity_list_devies">ListDevies</string>
+    <string name="title_activity_first">First</string>
+    <string name="title_activity_device11">Device11</string>
+    <string name="title_activity_device22">Device22</string>
+    <string name="title_activity_device33">Device33</string>
+    <string name="title_activity_device44">Device44</string>
+    <string name="title_activity_device55">Device55</string>
+    <string name="title_activity_guidelines">Guidelines</string>
+
+</resources>

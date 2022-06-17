@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+		<item 
+	    android:id="@+id/adddevice"
+	    android:icon="@drawable/adddevicemenu"
+	    android:showAsAction="always"
+	    android:title="addevice"/>
+		<item 
+	    android:id="@+id/discoverdevice"
+	    android:icon="@drawable/discovermenu"
+	    android:showAsAction="always"
+	    android:title="discoverdevice"/>
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bluetoothchatapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bluetoothchatapplication.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device1"
+            android:label="@string/title_activity_device1" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device2"
+            android:label="@string/title_activity_device2" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device3"
+            android:label="@string/title_activity_device3" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device4"
+            android:label="@string/title_activity_device4" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device5"
+            android:label="@string/title_activity_device5" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.ListDevies"
+            android:label="@string/title_activity_list_devies" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.First"
+            android:label="@string/title_activity_first" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device11"
+            android:label="@string/title_activity_device11" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device22"
+            android:label="@string/title_activity_device22" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device33"
+            android:label="@string/title_activity_device33" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device44"
+            android:label="@string/title_activity_device44" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Device55"
+            android:label="@string/title_activity_device55" >
+        </activity>
+        <activity
+            android:name="com.example.bluetoothchatapplication.Guidelines"
+            android:label="@string/title_activity_guidelines" >
+        </activity>
+    </application>
+
+</manifest>
